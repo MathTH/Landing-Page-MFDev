@@ -8,32 +8,38 @@ body{
 }
 
 header{
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 #title{
     flex-direction: column;
-    line-height: 10px;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px solid rgb(132, 14, 201);
+    text-align: center;
+    line-height: 5px;
+    padding: 20px;
+    
+
 }
 
 #title:hover{
-    background-color:rgb(132, 14, 201);
-    color: white
+    color: rgb(132, 14, 201);
 }
 
 li{
     display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     margin: 20px;
+    padding: 10px;
 }
 
 .nav-bar{
     color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .nav-bar:hover{
@@ -80,17 +86,36 @@ h2{
     font-family: poppinslight;
 }
 
+.paragrafo2{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+.paragrafo3{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
 .image1{
     width: 580px;
     
 }
 
+.image2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(132, 14, 201);
+}
 
 form{
     display: flex;
     flex-direction: column;
     width: 0%;
 }
+
 #buttom-contact{
     height: 50px;
     width: 50%;
@@ -98,6 +123,7 @@ form{
     color: white;
     font-weight: bold;
 }
+
 #buttom-contact:hover{
      cursor: pointer;
 }
@@ -109,4 +135,39 @@ form{
     border-radius: 20px;
     border: none;
     font-size: 15px;
+}
+
+.perfil-center{
+    text-align: center;
+
+}
+
+.color-mf{
+    color: rgb(132, 14, 201);
+}
+
+.footer-image1{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer p{
+    margin-top: 2px;
+}
+
+.sobremim{
+    padding: 100px;
+    text-align: center;
+    justify-content: center;
 }
