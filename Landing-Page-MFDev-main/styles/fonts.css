@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'poppinsblack';
-    src: url('../components/fonts/poppins-black-webfont.woff2') format('woff2'),
-         url('../components/fonts/poppins-black-webfont.woff') format('woff');
+    src: url('/Landing-Page-MFDev-main/components/fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('/Landing-Page-MFDev-main/components/fonts/poppins-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   
@@ -12,8 +12,8 @@
   
   @font-face {
     font-family: 'poppinsbold';
-    src: url('../components/fonts/poppins-bold-webfont.woff2') format('woff2'),
-         url('../components/fonts/poppins-bold-webfont.woff') format('woff');
+    src: url('/Landing-Page-MFDev-main/components/fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('/Landing-Page-MFDev-main/components/fonts/poppins-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   
@@ -22,8 +22,8 @@
   
   @font-face {
     font-family: 'poppinslight';
-    src: url('../components/fonts/poppins-light-webfont.woff2') format('woff2'),
-         url('../components/fonts/poppins-light-webfont.woff') format('woff');
+    src: url('/Landing-Page-MFDev-main/components/fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('/Landing-Page-MFDev-main/components/fonts/poppins-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   
@@ -32,8 +32,8 @@
   
   @font-face {
     font-family: 'poppinsmedium';
-    src: url('../components/fonts/poppins-medium-webfont.woff2') format('woff2'),
-         url('../components/fonts/poppins-medium-webfont.woff') format('woff');
+    src: url('/Landing-Page-MFDev-main/components/fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('/Landing-Page-MFDev-main/components/fonts/poppins-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   
@@ -41,8 +41,8 @@
   
   @font-face {
     font-family: 'poppinsregular';
-    src: url('../components/fonts/poppins-regular-webfont.woff2') format('woff2'),
-         url('../components/fonts/poppins-regular-webfont.woff') format('woff');
+    src: url('/Landing-Page-MFDev-main/components/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('/Landing-Page-MFDev-main/components/fonts/poppins-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   
@@ -50,8 +50,8 @@
   
   @font-face {
     font-family: 'poppinssemibold';
-    src: url('../components/fonts/poppins-semibold-webfont.woff2') format('woff2'),
-         url('../components/fonts/poppins-semibold-webfont.woff') format('woff');
+    src: url('/Landing-Page-MFDev-main/components/fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('/Landing-Page-MFDev-main/components/fonts/poppins-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   

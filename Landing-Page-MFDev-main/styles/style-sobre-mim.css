@@ -58,78 +58,11 @@ li{
     color: white
 }
 
-h1{
-    font-weight: 200;
-    
-}
-
 main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
 
-}
-
-h2{
-    font-size: 56px;
-    line-height: 10px;
-    font-family: poppinsmedium;
-}
-
-.color-line1-h2{
-    color: rgb(132, 14, 201);
-}
-
-.paragrafo{
-    line-height: 20px;
-    max-width: 500px;
-    font-family: poppinslight;
-}
-
-.paragrafo2{
-    line-height: 20px;
-    max-width: 500px;
-    font-family: poppinslight;
-}
-
-.paragrafo3{
-    line-height: 20px;
-    max-width: 500px;
-    font-family: poppinslight;
-}
-
-.image1{
-    width: 580px;
-    
-}
-
-
-
-form{
-    display: flex;
-    flex-direction: column;
-    width: 0%;
-}
-
-#buttom-contact{
-    height: 50px;
-    width: 50%;
-    background-color: rgb(132, 14, 201);
-    color: white;
-    font-weight: bold;
-}
-
-#buttom-contact:hover{
-     cursor: pointer;
-}
-
-.input-buttom{
-    margin-top: 20px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 20px;
-    border: none;
-    font-size: 15px;
 }
 
 .perfil-center{
@@ -167,15 +100,33 @@ footer p{
     justify-content: center;
 }
 
+.image2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(132, 14, 201);
+}
+
+#sobremim{
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+}
 
 .paragrafo2{
+    text-align: center;
     line-height: 20px;
     max-width: 500px;
     font-family: poppinslight;
 }
 
 .paragrafo3{
+    text-align: center;
     line-height: 20px;
     max-width: 500px;
     font-family: poppinslight;
+}
+
+#text-scrip{
+    text-align: center;
 }
