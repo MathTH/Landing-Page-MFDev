@@ -1,29 +1,92 @@
-@media screen and (max-width: 800px){
-    
-     header{
-         flex-direction: column;
-     }
+@media only screen and (max-width: 900px)
 
-     main{
-         flex-direction: column;
-     }
+/* .menu { width:600px; } */
+    {
 
-     h2{
-         font-size: 38px;
-     }
 
-     form{
-         margin: 0 auto;
-     }
+    body {
+        overflow-x: hidden;
+        text-align: center;
+        justify-content: center;
+    }
 
-     input{
-         align-self: center;
-         width: 70%;
-     }
 
-     #image1{
-         width: none;
-     }
+    header {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
 
+    main {
+        flex-direction: column;
+        overflow-x: hidden;
+        text-align: center;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: 38px;
+        overflow-x: hidden;
+    }
+
+    form {
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+    input {
+        align-self: center;
+        width: 70%;
+        overflow-x: hidden;
+    }
+
+    .image1 {
+        text-align: center;
+        width: 500px;
+        display: none;
+        overflow-x: hidden;
+    }
+
+    #test-cto{
+        display: none;
+    }
+
+    .container {
+        text-align: center;
+        display: inline-table;
+    }
+
+    #buttom-contact {
+        text-align: center;
+        width: 350px;
+    }
+
+    .paragrafo {
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .container .card {
+        position: relative;
+        padding: 10px;
+        width: 300px;
+        background-color: rgb(242, 228, 237);
+        margin: 30px;
+        border: 1px solid black;
+        border-radius: 100px;
+        overflow: hidden;
+        transition: 0.5s;
+        text-align: center;
+
+    }
+
+    #contato {
+        text-align: center;
+        justify-content: center;
+    }
+
+    footer {
+        text-align: center;
+    }
 
 }
