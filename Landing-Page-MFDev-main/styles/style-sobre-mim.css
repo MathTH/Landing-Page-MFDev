@@ -161,7 +161,7 @@ footer p{
 .card{
     text-align: center;
     border-radius: 5px;
-    box-shadow: 7px 7px 100px 0 rgb(253, 21, 129);
+    box-shadow: 1px 1px 20px 0 rgb(253, 21, 129);
     padding: 10px;
     margin: 10px;
     width: 250px;
@@ -171,6 +171,8 @@ footer p{
 .car:hover{
     transform: translateY(-10px);
     cursor: pointer;
+    filter: invert(1);
+    transition: 0.5s;
 }
 
 .card img{
@@ -181,4 +183,16 @@ footer p{
 
 .Linguagem{
     text-align: center;
+}
+
+.html{
+    color: #E65100;
+}
+
+.css{
+    color: #0277BD;
+}
+
+.javascript{
+    color: #FFD600;
 }

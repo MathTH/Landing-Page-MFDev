@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(242, 228, 237);
+    color: black;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+        flex-direction: column;
+        line-height: 10px;
+        padding: 10px;
+        border-radius: 200px;
+        border:  2px solid rgb(132, 14, 201);
+        
+}
+
+#title:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+.image1{
+              width: 580px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav-bar{
+    color: rgb(132, 14, 201);
+    
+}
+
+.nav-bar:hover{
+    color: rgb(34, 34, 34);
+    transition: 0.3s all;
+}
+
+#buttom-account{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#buttom-account:hover{
+    background-color: rgb(132, 14, 201);
+    color: rgb(34, 34, 34);
+
+}
+
+
+
+#text-cabeçalho{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45;
+}
+
+h1{
+    font-weight: 200;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 15px;
+    font-family: poppinsmedium;
+}
+
+.color-line-h2{
+    color: rgb(132, 14, 201);
+}
+
+.paragrafo{
+    line-height: 30px;
+    max-height: 500px;
+    font-family: poppinslight;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 0%;
+}
+
+#buttom-contact{
+    height: 45px;
+    width: 40%;
+    background-color: rgb(132, 14, 201);
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    transition: transform 1s;
+    transform: translateX(40px) scale(1.0);
+}
+
+#buttom-contact:hover{
+    background-color: rgb(132, 14, 201);
+    cursor: pointer;
+    color: white;
+    
+}
+#buttom-contact:focus{
+    transform: translateX(40px) scale(1.2);
+}
+
+.input-buttom{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
