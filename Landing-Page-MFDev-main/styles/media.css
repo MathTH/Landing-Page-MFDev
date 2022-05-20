@@ -1,7 +1,4 @@
-@media only screen and (max-width: 900px)
-
-/* .menu { width:600px; } */
-    {
+@media only screen and (max-width: 1000px) {
 
 
     body {
@@ -12,15 +9,17 @@
 
 
     header {
-        flex-direction: column;
-        overflow-x: hidden;
+        display: center;
+        justify-content: space-between;
+
     }
 
     main {
-        flex-direction: column;
-        overflow-x: hidden;
+
+        display: flex;
         text-align: center;
         justify-content: center;
+
     }
 
     h2 {
@@ -46,7 +45,7 @@
         overflow-x: hidden;
     }
 
-    #test-cto{
+    #test-cto {
         display: none;
     }
 
@@ -59,12 +58,6 @@
         text-align: center;
         width: 350px;
     }
-
-    .paragrafo {
-        text-align: center;
-        justify-content: center;
-    }
-
 
     .container .card {
         position: relative;
@@ -89,4 +82,91 @@
         text-align: center;
     }
 
+    .color-line1-h2 {
+        height: 30px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .mf-dev-h2 {
+        height: 20px;
+        text-align: center;
+        padding: 15px;
+
+    }
+
+
+
+    @media only screen and (max-width: 800px) {
+
+
+        header {
+            justify-content: space-between;
+
+        }
+
+
+        .color-line1-h2 {
+            height: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .mf-dev-h2 {
+            height: 15px;
+            text-align: center;
+            padding: 10px;
+
+        }
+
+        #buttom-account {
+            border: 1px solid rgb(132, 14, 201);
+            padding: 5px;
+            border-radius: 100px;
+            display: none;
+        }
+
+        #buttom-account:hover {
+            background-color: rgb(132, 14, 201);
+            color: white
+        }
+    }
+
+}
+@media only screen and (max-width: 700px) {
+
+    header {
+        justify-content: space-between;
+
+    }
+
+
+    .color-line1-h2 {
+        height: 20px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .mf-dev-h2 {
+        height: 15px;
+        text-align: center;
+        padding: 15px;
+
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+          
+         header{
+             align-items: center;
+             justify-content: center;
+
+         }
+     
+    ul{
+        display: grid;
+        text-align: center;
+        padding: 10px;
+    }
 }
