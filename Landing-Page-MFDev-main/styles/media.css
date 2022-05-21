@@ -133,6 +133,7 @@
     }
 
 }
+
 @media only screen and (max-width: 700px) {
 
     header {
@@ -156,17 +157,40 @@
 
 }
 
-@media only screen and (max-width: 500px){
-          
-         header{
-             align-items: center;
-             justify-content: center;
+@media only screen and (max-width: 500px) {
 
-         }
-     
-    ul{
+    header {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    ul {
         display: grid;
         text-align: center;
         padding: 10px;
     }
+}
+
+@media only screen and (max-width: 400px) {
+
+    header {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    ul {
+        display: grid;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .color-line1-h2 {
+        height: 40px;
+        text-align: center;
+        padding: 10px;
+    }
+
 }
