@@ -151,6 +151,13 @@ footer{
     justify-content: center;
 }
 
+.color-footer{
+    color: rgb(132, 14, 201);
+
+}
+
+
+
 footer a{
     margin: 20px;
     text-align: center;
@@ -178,4 +185,28 @@ footer p{
     line-height: 20px;
     max-width: 500px;
     font-family: poppinslight;
+}
+
+.color-line1-h2::after{   
+        content: '';
+        margin-left: 5px;
+        opacity: 1;
+        animation: pisca .7s infinite;
+}
+paragrafo
+
+.paragrafo:after{   
+    content: '';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
 }

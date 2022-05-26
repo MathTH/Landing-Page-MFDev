@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    padding: 10px;
 }
 
 
@@ -89,4 +90,8 @@
 .container .card:hover .content a{
     color: black;
     background-color: white;
+}
+
+.color-footer{
+    color: rgb(132, 14, 201);
 }

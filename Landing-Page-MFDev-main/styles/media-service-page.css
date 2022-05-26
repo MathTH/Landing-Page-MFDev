@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1000px) {
+
+    body {
+        overflow-x: hidden;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    header {
+        display: center;
+        justify-content: space-between;
+
+    }
+
+    main {
+
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .color-line1-h2 {
+        padding: 10%;
+        font-size: 40px;
+        overflow-x: hidden;
+    }
+
+    .mf-dev-h2{
+        padding: 5%;
+        font-size: 40px;
+        overflow-x: hidden;
+    }
+    
+
+    .image1 {
+        display: none;
+    }
+
+    #buttom-account {
+        display: none;
+    }
+
+    #template {
+        display: table;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+}
+

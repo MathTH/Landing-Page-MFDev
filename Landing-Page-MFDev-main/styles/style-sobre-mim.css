@@ -79,6 +79,10 @@ main{
     height: 40px;
 }
 
+.color-footer{
+    color: rgb(132, 14, 201);
+}
+
 footer{
     display: flex;
     justify-content: center;
